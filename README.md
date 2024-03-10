@@ -1,35 +1,35 @@
-# stub-repo &middot; [![Test workflow status](https://github.com/ChrisCodesThings/stub-repo/actions/workflows/test.yml/badge.svg)](../../actions/workflows/test.yml) [![NPM Version](https://img.shields.io/npm/v/@chriscodesthings/stub-repo)](https://www.npmjs.com/package/@chriscodesthings/stub-repo) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# randomize-array &middot; [![Test workflow status](https://github.com/ChrisCodesThings/randomize-array/actions/workflows/test.yml/badge.svg)](../../actions/workflows/test.yml) [![NPM Version](https://img.shields.io/npm/v/@chriscodesthings/randomize-array)](https://www.npmjs.com/package/@chriscodesthings/randomize-array) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-> **Function to determine if something is a string type**
+> **Function to randomize an array**
 
 ## Install
 
 ```sh
-npm install --save @chriscodesthings/stub-repo
+npm install --save @chriscodesthings/randomize-array
 ```
 
 ## Use
 
 ```js
-import stubRepo from '@chriscodesthings/stub-repo';
+import randomizeArray from '@chriscodesthings/randomize-array';
 
-console.log(stubRepo("hello world!"));
-// => true
+console.log(randomizeArray([1, 2, 3, 4, 5]));
+// => [3, 2, 5, 1, 4]
 ```
 
 ## Syntax
 
 ```js
-stubRepo(var);
+randomizeArray(arr);
 ```
 
 ### Parameters
 
-- *var*: any
+- *arr*: an array to randomize
 
 ### Return Value
 
-Returns something probably.
+Returns a copy of *arr* in a random order.
 
 ## Description
 

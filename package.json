@@ -1,15 +1,16 @@
 {
-  "name": "@chriscodesthings/stub-repo",
+  "name": "@chriscodesthings/randomize-array",
   "version": "0.1.0",
-  "description": "npm package template",
+  "description": "Function to randomize an array",
   "keywords": [
-    "stub",
-    "package",
-    "template"
+    "array",
+    "random",
+    "randomize",
+    "shuffle"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChrisCodesThings/stub-repo.git"
+    "url": "git+https://github.com/ChrisCodesThings/randomize-array.git"
   },
   "main": "index.js",
   "type": "module",
@@ -23,14 +24,16 @@
     "node": ">=18.0.0"
   },
   "bugs": {
-    "url": "https://github.com/ChrisCodesThings/stub-repo/issues"
+    "url": "https://github.com/ChrisCodesThings/randomize-array/issues"
   },
   "scripts": {
     "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
     "version": "auto-changelog -p && git add CHANGELOG.md",
     "postversion": "git push && git push --tags"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@chriscodesthings/ultimate-random-number-er": "*"
+  },
   "devDependencies": {
     "auto-changelog": "*",
     "jest": "*"
