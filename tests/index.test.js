@@ -9,7 +9,6 @@ describe("randomizing 100 numbers", () => {
     }
 
     const shuffled = testFunc(sourceArr);
-    console.log("shuffed array", shuffled);
 
     test("contains 100 numbers", async () => {
         expect(sourceArr.length).toEqual(100);
