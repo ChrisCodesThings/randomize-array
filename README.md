@@ -63,4 +63,3 @@ function pickQuestions() {
 ## See Also...
 
 - [**ultimate-random-number-er**: Generates random numbers with options for ranges, repetition, past and future sequences ... and more!](https://github.com/ChrisCodesThings/ultimate-random-number-er "Generates random numbers with options for ranges, repetition, past and future sequences ... and more!")
-- [**random-css-hex-color**: Generates a random color in CSS hex format](https://github.com/ChrisCodesThings/random-css-hex-color "Generates a random color in CSS hex format")
