@@ -1,6 +1,6 @@
 // @ts-check
 
-function r(n) { return Math.round(Math.random() * n); }
+import random from "@chriscodesthings/random-in-range";
 
 /**
  * Makes a copy of an array in a randomized order
@@ -12,7 +12,7 @@ export default function randomizeArray(arr) {
     const to = [];
 
     while (from.length) {
-        to.push(from.splice(r(from.length - 1), 1)[0]);
+        to.push(from.splice(random(from.length - 1), 1)[0]);
     }
 
     return to;
